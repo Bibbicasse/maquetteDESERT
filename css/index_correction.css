@@ -1,0 +1,52 @@
+/*Style > page sur les déserts du monde*/
+
+body {
+    background-color: #e2e2e2;
+    color: black;
+    
+}
+
+/* navigation  */
+nav > a {
+    background-color: #e2e2e2;
+    color: #333;
+}
+
+/* nav > a::before,
+nav > a::after {
+    content: " - "
+} */
+
+/* paragraphes */
+
+section > p::before {
+    content: "";
+    padding: 50px;
+}
+
+section > p {
+    text-indent: 50px;
+}
+
+/* titre de la page  */
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+
+                    /* Règles média queries */
+
+@media (min-width:992px) {
+    nav > a {
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS CDN -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.css"> <!-- CSS Boostrap Local -->
+
+                        <!-- Mes Styles CSS -->
+    <!-- CSS Personnel  -->
+    <link rel="stylesheet" href="css/index_correction.css">
+
+    <title>Maquette Désert</title>
+  </head>
+
+  <body class="container">
+      <div class="bg-white px-3"><!-- px -> padding sur l'axe des x (droite et gauche) -->
+
+            <!-- ============================================================== -->
+            <!-- Début du contenu-->
+            <!-- ============================================================== -->
+            
+            <!-- flex pour desktop puis justification et alignement  -->
+          <header class="d-lg-flex justify-content-between align-items-center text-center">
+            <!-- div logo et h1  -->
+              <div class="d-lg-flex justify-content-between align-items-center">
+                  <img src="img/logo.png" alt="Logo - Les déserts du monde" class="img-fluid m-2">
+                  <h1>Déserts du monde</h1>
+              </div><!-- Fin div -->
+
+              <nav class="d-md-flex p-2 custom-width-50 ">
+                <!-- les liens sont sur 12 colonnes puis sur 4 en tablette et au dessu  -->
+                  <a href="#" class="col-12 col-md-4 d-inline-block py-1 my-1 text-decoration-none">ACTUALITÉS</a>
+                  <a href="#" class="col-12 col-md-4 d-inline-block py-1 my-1 text-decoration-none">GALERIES</a>
+                  <a href="#" class="col-12 col-md-4 d-inline-block py-1 my-1 text-decoration-none">CONTACT</a>
+              </nav><!-- Fin nav -->
+          </header>
+          <hr class="">
+          <!-- Début main -->
+          <!-- Les enfants de main sont flex en lg  -->
+          <main class="d-lg-flex my-4 px-4">
+            <!-- Début section principal gauche -->
+            <section class="col-lg-8">
+              <h2 class="text-left">A chaque désert son voyage, ses couleurs...</h2>
+
+              <img src="img/desert.jpg" alt="Un arbre dans le désert" class="img-fluid my-4 w-100" >
+
+              <p class="text-justify"><strong>Que dit le désert ? Que signifie-t-il? Que suggère-t-il ?"</strong><em>"Le désert est un être poétique"</em>. Voici, pour commencer, une vérité ontologique à soutenir car elle n'induit point en erreur. On ne saurait discourir sur le désert sans penser préalablement à la notion de "vide". En effet, le premier sentiment qui s'empare de nous lorsqu'on évoque le désert, c'est le sentiment de vie. </p>
+              
+              <p class="text-justify">On imagine l'espace. On imagine son immensité. On imagine sa vacuité et sa dureté. Dans l'inconscient collectif universel, le désert est notamment lié au sentiment de perte et d'errance. Il est sans contexte la métaphore de la solitude et de l'isolement. Toutefois, le désert, bien qu'il soit visiblement vide, est un espace peuplé. Il est peuplé de secrets et de métaphores qui définissent plus l'être énigmatique qu'il est que le simple espace exposé à l'œil. Phénoménologiquement parlant, pour comprendre le désert, il faut vivre l'expérience du désert</p>
+              
+              <p class="text-justify">Il faut entrer en télescopage avec lui afin d'en déduire le sens et la signification. En principe, nulle présence (humaine ou autre) ne peut prétendre signifier intrinsèquement. Toute signification, toute connaissance est une expérience. Ainsi, la signification est-elle plutôt extrinsèque. elle émane d'une expérience externe exercée librement par l'autre sur le même. Dans cette perspective, le désert, objet de réflexion, est à considérer comme étant un livre un texte à draguer, à séduire inlassablement afin de gagner sa confiance, son intimité et sa foi. Il faut y voir un "visage", "le commencement même de la philosophie"(Emmanuel Lévinas, <em>Entre nous,</em> grasset et Fasquelle, 1991.) En fait le désert s'expose au regard comme s'il s'agissait d'un visage, l'épreuve de l'infini. </p>
+            </section>
+            <!-- Début section latéral droite -->
+            <!-- Aside se masque en mode mobile avec d-none, et s'affiche à partir du mode tablette avec d-md-block -->
+            <aside class="col-lg-4 d-none d-md-block ">
+              <hr class="d-lg-none">
+              <div class="row">
+                <!-- les 2 col de la row aside ont des comportements différents en md et en lg  -->
+                <div class="col-6 col-md-6 col-lg-12">
+                  <h3 class="text-left">Top 5 des déserts du monde</h3>
+                  <hr>
+                  <ol class="pl-2">
+                    <li><a href="#">Le désert de Gobi</a></li>
+                    <li><a href="#">La vallée de la mort</a></li>
+                    <li><a href="#">Le désert du Sahara</a></li>
+                    <li><a href="#">Le désert de Gibson</a></li>
+                    <li><a href="#">Le massif des Aurès</a></li>
+                  </ol>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-12">
+                  <h3 class="text-left mt-2">Galeries</h3>
+                  <hr>
+                  <img src="img/vignette1.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette2.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette3.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette4.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette5.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette6.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette7.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette8.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette9.jpg" alt="Désert du monde" class="img-fluid">
+                  <img src="img/vignette10.jpg" alt="Désert du monde" class="img-fluid">
+                </div><!-- fin col row aside -->
+
+              </div><!-- fin row de aside -->
+            </aside>
+          </main>
+          <footer class="text-center mt-2">
+            <hr>
+            <p class="py-4">&#169; 2021 - les déserts du monde</p>
+        </footer>
+      </div><!-- fin div principal -->
+      <!-- ============================================================== -->
+            <!-- Fin du contenu-->
+            <!-- ============================================================== -->
+
+    
+   
+<!-- SCRIPT EN LOCAL -->
+
+      <!-- jQuery en local  -->
+  <script src="jquery/jquery-3.5.1.js"></script>
+
+  <!-- Popper en local -->
+  <script src="js/popper.min.js"></script>
+
+  <!-- Boostrap JS en local  -->
+  <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
